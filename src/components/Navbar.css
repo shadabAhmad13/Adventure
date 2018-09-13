@@ -1,0 +1,42 @@
+div#navbarNav {
+  display: flex;
+  /* justify-content: flex-end; */
+  color: #fff !important;
+}
+
+/* .gl-justify-content {
+    justify-content: flex-end;
+} */
+
+a.nav-link {
+  color: #fff;
+}
+li.nav-item {
+  margin-right: 5em;
+}
+
+ul#navbar-items-right {
+  width: 100%;
+}
+.navbar-brand {
+  color: #fff !important;
+  margin-right: 5em;
+}
+.gl-d-flex {
+  display: flex;
+}
+.gl-flex-column {
+  flex-direction: column;
+}
+.gl-flex-row {
+  flex-direction: row;
+}
+.gl-justify-flex-end {
+  justify-content: flex-end;
+}
+
+nav.gl-navbar.gl-navbar-inverse,
+a.gl-navbar-brand {
+  color: white;
+  background-color: transparent;
+}

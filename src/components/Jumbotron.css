@@ -1,0 +1,9 @@
+.jumbotron{
+    background-image: url(../eng.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
