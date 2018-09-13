@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import { logo } from "../assets/logo-g.png";
 
 class Navbar extends Component {
   render() {
@@ -8,15 +9,14 @@ class Navbar extends Component {
       <div className="gl-d-flex gl-flex-column gl-justify-flex-end">
         {/* <nav className="navbar navbar-expand-lg navbar-light "> */}
         <nav className="gl-navbar gl-navbar-inverse gl-d-flex gl-justify-flex-end">
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand" to="/home">
             <img
-              src="/assets/brand/bootstrap-solid.svg"
-              width="30"
-              height="30"
+              src={require('../assets/logo-g.png')}
+              width="150"
+              height="auto"
               className="d-inline-block align-top"
               alt=""
             />
-            G Tech
           </Link>
          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>

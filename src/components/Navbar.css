@@ -2,6 +2,7 @@ div#navbarNav {
   display: flex;
   /* justify-content: flex-end; */
   color: #fff !important;
+  margin-top: 0.9em;
 }
 
 /* .gl-justify-content {
