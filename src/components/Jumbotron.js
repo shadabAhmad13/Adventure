@@ -4,12 +4,13 @@ import '../components/Jumbotron.css';
 
 class Jumbotron extends Component{
     render(){
+        
         return(
-            <div className="jumbotron jumbotron-fluid">
-                <Navbar />
-                <div className="container">
-                    <h1 className="display-3"> {this.props.title}</h1>
-                    <p className="lead"> {this.props.subtitle}</p>
+            <div className="jumbotron jumbotron-fluid" style={{backgroundImage: `url(${this.props.bgImage})`}}>
+                <Navbar {...this.props}/>
+                <div className="container gl-d-flex gl-align-middle gl-align-items-start gl-flex-direction">
+                    <h1 className="display-1 gl-banner-title-text gl-banner-title-margin-top"> {this.props.title}</h1>
+                    <p className="gl-banner-subtitle-text"> {this.props.subtitle}</p>
                 </div>
             </div>
          

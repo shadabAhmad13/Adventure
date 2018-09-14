@@ -1,5 +1,5 @@
 .jumbotron{
-    background-image: url(../eng.jpg);
+    /* background-image: url(../eng.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     color: #fff;
@@ -8,4 +8,38 @@
     margin-bottom: 10px;
     background-size: cover;
     height: 500px;
+}
+
+.container{
+    height : 75%;
+}
+
+.gl-d-flex {
+    display: flex;
+}
+
+.gl-align-middle{
+    vertical-align: middle;
+}
+
+.gl-align-items-start{
+    align-items: start;
+}
+
+.gl-flex-direction{
+    flex-direction: column;
+}
+
+.gl-banner-title-text{
+   font-size: 100rem;
+}
+
+.gl-banner-title-margin-top{
+    margin-top: 200px;
+
+}
+
+.gl-banner-subtitle-text{
+
+    max-width: 48%;
 }

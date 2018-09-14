@@ -1,0 +1,45 @@
+div#section-first{
+    height:320px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div#section-second{
+    height:320px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+div#first-half{
+    
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+div#second-half{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px
+}
+
+.gl-justify-content-center{
+    justify-content: center;
+}
+
+.gl-align-item-center{
+    align-items: center;
+}
+
+.gl-d-flex {
+    display: flex;
+
+}
+
+.gl-flex-direction{
+    flex-direction: column;
+
+} 

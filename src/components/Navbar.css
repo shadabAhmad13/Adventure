@@ -12,6 +12,10 @@ div#navbarNav {
 a.nav-link {
   color: #fff;
 }
+
+a.navbar-brand {
+  padding-left: 5em;
+}
 li.nav-item {
   margin-right: 5em;
 }
