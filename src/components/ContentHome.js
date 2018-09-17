@@ -3,7 +3,7 @@ import SectionFirst from './SectionFirst';
 import SectionSecond from './SectionSecond';
 import SectionThird from './SectionThird';
 
-class MainContent extends React.Component{
+class ContentHome extends React.Component{
     render(){
         return(
             <div>
@@ -15,4 +15,4 @@ class MainContent extends React.Component{
     }
 }
 
-export default MainContent ;
+export default ContentHome ;

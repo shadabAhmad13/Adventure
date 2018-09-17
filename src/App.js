@@ -5,7 +5,10 @@ import './App.css';
 // import {Jumbotron , Button} from 'react-bootstrap'
 import {BrowserRouter as Router , Route} from 'react-router-dom';
 import Home from './pages/Home';
-import Service from './pages/Service';
+import Services from './pages/Services';
+import EngineeringTeams from './pages/EngineeringTeams';
+import Tools from './pages/Tools';
+import OperationsTeam from './pages/OperationsTeam';
 
 
 class App extends Component {
@@ -18,7 +21,10 @@ class App extends Component {
             {/* <h1> inside router</h1> */}
             <Route exact path="/" component={Home} />
             <Route path = "/home" component={Home} />
-            <Route path = "/service" component={Service} />
+            <Route path = "/service" component={Services} />
+            <Route path = "/engineeringTeams" component={EngineeringTeams} />
+            <Route path = "/operationsTeam" component={OperationsTeam} />
+            <Route path = "/tools" component={Tools} />
             {/* <h1>after route performed </h1> */}
           </div>
 

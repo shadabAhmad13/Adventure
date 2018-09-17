@@ -4,6 +4,7 @@ import './SectionFirst.css';
 class SectionFirst extends React.Component{
     render(){
         return(
+            <div className="container" >
             <div className="gl-d-flex gl-align-item-center gl-flex-direction">
                 <h1 className="display-3 " > What is human judgement ?</h1>
                 <div className="row" id="section-first">
@@ -40,6 +41,8 @@ class SectionFirst extends React.Component{
                         </div>
                     </div>
                 </div>
+            </div>
+
             </div>
         );
     }

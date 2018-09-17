@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 class Navbar extends Component {
   render() {
     return (
-      <div className="gl-d-flex gl-flex-column gl-justify-flex-end">
+      <div className="gl-d-flex gl-flex-column gl-justify-flex-end fixed-top " >
         {/* <nav className="navbar navbar-expand-lg navbar-light "> */}
-        <nav className="gl-navbar gl-navbar-inverse gl-d-flex gl-justify-flex-end">
+        <nav className="gl-navbar gl-navbar-inverse gl-d-flex gl-justify-flex-end " >
           <Link className="navbar-brand" to="">
             <img
               src="./assets/logo-g.png"

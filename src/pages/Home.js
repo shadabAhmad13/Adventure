@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Jumbotron from '../components/Jumbotron';
 // import { backgroundImage } from '';
-import MainContent from '../components/MainContent';
+import ContentHome from '../components/ContentHome';
 
 
 class Home extends Component {
@@ -10,7 +10,7 @@ class Home extends Component {
         return (
             <div>
                 <Jumbotron bgImage= "./assets/eng.jpg"title = "AI in real world" subtitle = "Our Human judgement team helps machine think , behave and understood the world as we humans do"/>
-                <MainContent />
+                <ContentHome />
             </div>
         );
     }
